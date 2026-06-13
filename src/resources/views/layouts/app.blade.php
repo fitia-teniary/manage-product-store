@@ -14,6 +14,7 @@
         </div>
     </nav>
 
+    
     <main class="max-w-4xl mx-auto px-4">
         @if (session('success'))
             <div class="mb-4 rounded bg-green-100 text-green-800 px-4 py-2">
