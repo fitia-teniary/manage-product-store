@@ -28,19 +28,14 @@ Then run:
 
 ```bash
 php artisan migrate
-npm install && npm run dev
 ```
 
 ## Running the project
 
-Open two terminals:
+Open a terminal:
 
 ```bash
-# Terminal 1
 php artisan serve
-
-# Terminal 2
-npm run dev
 ```
 
 Visit `http://localhost:8000/products` — you will be redirected to the product list.
