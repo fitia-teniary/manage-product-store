@@ -43,15 +43,11 @@ php artisan serve
 npm run dev
 ```
 
-Visit `http://localhost:8000` — you will be redirected to the login page.
-
-## Register & Login
-
-Go to `/register` to create an account, then log in to access the app.
+Visit `http://localhost:8000/products` — you will be redirected to the product list.
+Visit `http://localhost:8000/customers` — you will be redirected to the customer list.
 
 ## Features
 
-- Authentication (Laravel Breeze)
 - Product management (name, description, price, stock quantity)
 - Customer management (first name, last name, email, phone)
 - Form validation with dedicated Form Request classes
